@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar Sameer | Resume</title>
+    <style>
+        
+       
+
+    *{
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+        .main-content{
+            display: grid;
+            grid-template-columns: 300px 700px;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            min-height: 1000px;
+            width: 90%;
+            margin: 20px auto;
+        }
+    
+        @media screen and (max-width: 674px) {
+            .main-content{
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 90%;
+                min-height: 1000px;
+            }
+        }
+
+        .left-section{
+            background-color: rgb(7, 207, 187);
+
+        }
+        .right-section{
+            background-color: rgb(223, 180, 102);
+            width: 90%
+        }
+        .left-content{
+            padding: 1rem;
+        }
+
+        .profile-image{
+            padding: 1rem;
+            display: block;
+            text-align: center;
+        }
+
+        img{
+            margin: auto;
+            border-radius: 30%;
+            border: 5px solid white;
+            width: 60%;
+        }
+        .name{
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            letter-spacing: 0.02px;
+            padding: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        .designation{
+            font-size: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 0.5rem;
+        }
+        
+        .description{
+            font-size: 0.75rem;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .social-media{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+        
+        li{
+            text-align: center;
+        }
+
+        li img{
+            border: none;
+            width: 50%;
+            margin-top: 10px;
+            
+        }
+        .personal-details{
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        .icon1 img{
+            width: 7%;
+            margin: 5px;
+        }
+
+        .icon1{
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .skills{
+            text-align: left;
+            font-weight: 700;
+            font-size: 0.65rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .skill-name{
+            font-size: 0.65rem;
+            font-weight: 500;
+            text-align: left;
+            padding: 0.5rem
+        }
+
+        .progress-bar{
+            border: 1px solid white;
+            background-color: white;
+            height: 4px;
+        }
+
+        .right-main-content{
+            padding: 2rem 3rem;
+        }
+
+        .right-title{
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+        }
+        .right-title p{
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main-content">
+        <div class="left-section">
+            <div class="left-content">
+                <div class="profile-details">
+                    <div class="profile-image"> <img src="https://hoteliermaldives.com/wp-content/uploads/Passport-Size-Photo.jpg" alt=""></div>
+                    <div class="name">Sagar Sameer</div>
+                    <div class="designation">Physicist</div> <hr>
+                    <div class="description">Physicist | Full Stack Dev </div>
+                    <div class="contact-item">
+                        <div class="social-media">
+                            <li class="icon"><a href="#"><img src="twitter.png" alt=""> </a> </li>
+                            <li class="icon"><a href="#"><img src="meta.png" alt=""></a></li>
+                            <li class="icon"><a href="#" id=""><img src="linkedin.png" alt=""></a></li>
+                            <li class="icon"><a href="#"><img src="github.png" alt=""></a></li>
+                        </div>
+                        <div class="personal-details">
+                            <li class="icon1">
+                                <img src="email.png" alt="">
+                                <span>sagar.sameer9630@gmail.com</span> </li>
+                            <li class="icon1">
+                                <img src="telephone-call.png" alt="">
+                                <span>8376065527</span>
+                            </li>
+                            <li class="icon1"><img src="location.png" alt="">
+                                <span>Delhi</span>
+                            </li>
+                        </div>
+                    <br><div class="skills">Skills
+                        <div class="skill-name">
+                            <li>JAVA</li>
+                            <li>C++</li>
+                            <li>English</li>
+                        </div>
+                        <div class="progress-bar"></div> <br>
+                        <div class="progress-bar"></div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="right-main-content"></div>
+            <div class="right-title">About Me <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam vel incidunt officia, voluptatibus harum doloremque perferendis optio ducimus laborum minima. Fuga necessitatibus tenetur est sunt cupiditate aut minima. Et, ipsam.</p></div>
+            <div class="right-title">Education 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, totam.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, pariatur.</p></div>
+            <div class="right-title">Experience
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
